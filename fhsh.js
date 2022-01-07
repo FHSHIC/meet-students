@@ -1,5 +1,6 @@
 $('.slider-1').slick({
     arrows: false,
+    dots: true,
     autoplay: true,
     autoplaySpeed: 5000
 });
@@ -36,12 +37,3 @@ $('.slider-3').slick({
     arrows: false,
     fade: true
 });
-    
-document.getElementById('myBtn').addEventListener('click', function(e) {
-    var myBtn = e.target;
-    var current = parseInt(myBtn.getAttribute('angle'));
-    current = (current + 180) % 360;
-    myBtn.style.transform = `rotate(${current}deg)`;
-    myBtn.setAttribute('angle', current);
-    document.getElementById('myDropdown').classList.toggle("show");
-})
