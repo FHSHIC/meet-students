@@ -63,9 +63,9 @@ p{
 nav{
   position: absolute;
   top: 1.5vh;
-  left: 6vw;
+  left: 3.1vw;
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 10.5vw));
+  grid-template-columns: repeat(7, minmax(0, 10.3vw));
   width: 80vw;
 }
 
@@ -174,36 +174,64 @@ a:hover{
 
 .text-4-title{
   position: absolute;
-  top: 167.5vh;
-  left: 8.5vw;
-  width: 26vw;
-  height: 9.2vh;
-  font-size: 3rem;
+  top: 158.4vh;
+  left: 11.8vw;
+  width: 18.2vw;
+  height: 4.6vh;
+  font-size: 2.25rem;
   font-weight: 600;
 }
 
 .text-4-p{
   position: absolute;
-  top: 178.7vh;
-  left: 8.5vw;
-  width: 26vw;
-  height: 23.1vh;
+  top: 163.6vh;
+  left: 11.8vw;
+  width: 15.6vw;
+  height: 7.4vh;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.text-4-p-2{
+  position: absolute;
+  top: 171.6vh;
+  left: 11.8vw;
+  width: 36.4vw;
+  height: 37vh;
+  font-size: 1.5rem;
+}
+
+.little-div{
+  position: absolute;
+  top: 165vh;
+  width: 7.1vw;
+  height: 4.2vh;
+  text-align: center;
+  font-size: 1.625rem;
+  padding-top: 5px;
+}
+
+.little-div:hover{
+  font-size: 1.8rem;
+  color: #B4AA7C;
+  padding: 2.9px 0;
+  cursor: pointer;
+}
+
+#video{
+  left: 32.7vw;
+}
+
+#flicker{
+  left: 41.2vw;
 }
 
 .liu-1 img{
   position: absolute;
-  top: 147vh;
-  left: 57.9vw;
-  width: 15.5vw;
-  height: 37vh;
-}
-
-.liu-2 img{
-  position: absolute;
-  top: 183.3vh;
-  left: 42vw;
+  top: 147.3vh;
+  left: 58.3vw;
   width: 11.7vw;
-  height: 27.7vh;
+  height: 37vh;
 }
 
 .liu-3 img{
@@ -270,7 +298,35 @@ a:hover{
   left: 20.6vw;
   width: 13vw;
   height: 17.3vh;
-  cursor: default;
+}
+
+#letter:hover img{
+  top: 224.25vh;
+  left: 20.35vw;
+  width: 13.5vw;
+  height: 17.8vh;
+  cursor: pointer;
+}
+
+#jumpout{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #191919ce;
+  z-index: 99;
+  display: none;
+}
+
+#jumpout-img{
+  position: fixed;
+  top: 20vh;
+  left: 20vw;
+  width: 60vw;
+  height: 60vh;
+  border: 1px solid #000000;
+  border-radius: 30px;
 }
 
 .ko-1 img{
@@ -473,7 +529,7 @@ a:hover{
 }
 
 .text-3-title{
-  width: 15.6vw;
+  width: 23.4vw;
   height: 4.6vh;
   font-size: 3rem;
   margin-top: 7.3vh;
@@ -483,7 +539,7 @@ a:hover{
 .text-3-p{
   width: 26vw;
   height: 27.7vh;
-  margin-top: 2.8vh;
+  margin-top: 12vh;
   margin-left: 2.8vw;
 }
 
@@ -768,10 +824,10 @@ a:hover{
 
 .bg-22{
   position: absolute;
-  top: 12.6vh;
+  top: 6.2vh;
   left: 0vw;
   width: 62vw;
-  height: 37vh;
+  height: 53vh;
 }
 
 .bg-23{
@@ -798,7 +854,7 @@ a:hover{
 
 .text-7-title{
   position: absolute;
-  top: 4vh;
+  left: 1vw;
   width: 10.4vw;
   height: 4vh;
   font-size: 2.25rem;
@@ -806,49 +862,41 @@ a:hover{
 }
 
 #t1{
-  left: 2vw;
+  top: 6vh;
 }
 
 #t2{
-  left: 19.2vw;
+  top: 22.9vh;
 }
 
 #t3{
-  left: 36.1vw;
-}
-
-.text-7-p{
-  position: absolute;
-  top: 12.3vh;
-  width: 5.7vw;
-  height: 18.4vh;
+  top: 41.6vh;
+  left: 8.8vw;
+  width: 41.6vw;
+  height: 9.2vh;
   text-align: center;
 }
 
-#p1{
-  left: 3.1vw;
+.fa img{
+  position: absolute;
+  top: 18vh;
+  left: 12vw;
+  width: 22vw;
+  height: 7.4vh;
 }
 
-#p2{
-  left: 8.9vw;
+.human img{
+  position: absolute;
+  top: 16vh;
+  left: 35vw;
+  width: 12.3vw;
+  height: 10.7vh;
 }
 
-#p3{
-  left: 14.6vw;
-}
-
-#p4{
-  left: 23vw;
-}
-
-#p5{
-  left: 28.8vw;
-}
-
-#p6{
-  left: 37.2vw;
-}
-
-#p7{
-  left: 43vw;
+.pan img{
+  position: absolute;
+  top: 32vh;
+  left: 12vw;
+  width: 20.6vw;
+  height: 13.1vh;
 }
