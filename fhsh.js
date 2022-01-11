@@ -2,7 +2,7 @@ $('.slider-1').slick({
     arrows: false,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 5000
+    autoplaySpeed: 8000
 });
 
 $('.slider').slick({
@@ -37,3 +37,12 @@ $('.slider-3').slick({
     arrows: false,
     fade: true
 });
+
+$('.slider-4').slick({
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    centerMode: true,
+    variableWidth: true
+})
