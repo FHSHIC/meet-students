@@ -57,6 +57,7 @@ p{
   font-family: Roboto;
   font-size: 1.875rem;
   text-align: left;
+  z-index: 90;
 }
 
 /*-----選單-----*/
@@ -67,6 +68,7 @@ nav{
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 10.3vw));
   width: 80vw;
+  z-index: 90;
 }
 
 a{
@@ -83,12 +85,14 @@ a:hover{
   height: 4.6vh;
   font-size: 1.875rem;
   text-align: center;
+  font-weight: 600;
 }
 
 /*-----活動介紹-----*/
 .bg-1{
   width: 80vw;
   height: 144.9vh;
+  z-index: 0;
 }
 
 .bg-3{
@@ -97,6 +101,17 @@ a:hover{
   left: 6.2vw;
   width: 62vw;
   height: 144.9vh;
+  z-index: 5;
+}
+
+.text-1-2{
+  position: absolute;
+  top: 70.8vh;
+  left: 8.33vw;
+  width: 23.4vw;
+  height: 5.55vh;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .text-1-title{
@@ -107,6 +122,7 @@ a:hover{
   height: 5.5vh;
   font-size: 3rem;
   font-weight: 900;
+  text-shadow: 2px 2px #B4AA7C;
 }
 
 .text-1-p{
@@ -116,6 +132,8 @@ a:hover{
   width: 57.2vw;
   height: 27.7vh;
   text-align: center;
+  overflow-y: auto;
+  text-shadow: 2px 2px #B4AA7C;
 }
 
 .bg-4 img{
@@ -124,6 +142,7 @@ a:hover{
   left: 8vw;
   width: 62vw;
   height: 52.7vh;
+  z-index: 10;
 }
 
 .bg-5 img{
@@ -132,6 +151,7 @@ a:hover{
   left: 7vw;
   width: 62vw;
   height: 52.7vh;
+  z-index: 15;
 }
 
 .video iframe{
@@ -140,6 +160,7 @@ a:hover{
   left: 32.5vw;
   width: 33.3vw;
   height: 33.3vh;
+  z-index: 15;
 }
 
 .live img{
@@ -148,12 +169,14 @@ a:hover{
   left: 10.4vw;
   width: 25vw;
   height: 33.3vh;
+  z-index: 10;
 }
 
 /*-----校長的話-----*/
 #a2{
   width: 80vw;
   height: 74.5vh;
+  z-index: 0;
 }
 
 .bg-16{
@@ -162,6 +185,7 @@ a:hover{
   left: 6.2vw;
   width: 62vw;
   height: 74.5vh;
+  z-index: 5;
 }
 
 .line img{
@@ -170,6 +194,7 @@ a:hover{
   left: 6.6vw;
   width: 1.5vw;
   height: 74vh;
+  z-index: 10;
 }
 
 .text-4-title{
@@ -199,6 +224,7 @@ a:hover{
   width: 36.4vw;
   height: 37vh;
   font-size: 1.5rem;
+  overflow-y: auto;
 }
 
 .little-div{
@@ -209,6 +235,7 @@ a:hover{
   text-align: center;
   font-size: 1.625rem;
   padding-top: 5px;
+  z-index: 10;
 }
 
 .little-div:hover{
@@ -232,6 +259,7 @@ a:hover{
   left: 57.6vw;
   width: 13vw;
   height: 37vh;
+  z-index: 15;
 }
 
 .liu-3 img{
@@ -240,12 +268,14 @@ a:hover{
   left: 52.4vw;
   width: 18.2vw;
   height: 24.2vh;
+  z-index: 15;
 }
 
 /*-----主題人物-----*/
 #a3{
   width: 80vw;
   height: 72vh;
+  z-index: 0;
 }
 
 .bg-17{
@@ -254,6 +284,7 @@ a:hover{
   left: 6.2vw;
   width: 62vw;
   height: 72vh;
+  z-index: 5;
 }
 
 .left-top img{
@@ -262,6 +293,7 @@ a:hover{
   left: 21.7vw;
   width: 10.4vw;
   height: 18.4vh;
+  z-index: 10;
 }
 
 .text-5-title{
@@ -290,6 +322,7 @@ a:hover{
   left: 34.2vw;
   width: 31.2vw;
   height: 23.1vh;
+  overflow-y: auto;
 }
 
 .ko-3 img{
@@ -298,6 +331,7 @@ a:hover{
   left: 20.6vw;
   width: 13vw;
   height: 17.3vh;
+  z-index: 15;
 }
 
 #letter{
@@ -306,6 +340,7 @@ a:hover{
   left: 60.7vw;
   width: 6.2vw;
   height: 11.1vh;
+  z-index: 15;
 }
 
 #letter:hover{
@@ -346,6 +381,7 @@ a:hover{
   left: 3.5vw;
   width: 15.6vw;
   height: 37vh;
+  z-index: 15;
 }
 
 .ko-2 img{
@@ -354,12 +390,14 @@ a:hover{
   left: 16.5vw;
   width: 15.6vw;
   height: 37vh;
+  z-index: 20;
 }
 
 /*-----關於導演-----*/
 .bg-2{
   width: 80vw;
   height: 64.8vh;
+  z-index: 0;
 }
 
 .img-99 img{
@@ -368,6 +406,7 @@ a:hover{
   right: 3.4vw;
   width: 9.1vw;
   height: 11.9vh;
+  z-index: 5;
 }
 
 .bg-6{
@@ -376,6 +415,7 @@ a:hover{
   left: 0vw;
   width: 15.6vw;
   height: 2.7vh;
+  z-index: 5;
 }
 
 .text-2{
@@ -434,6 +474,7 @@ a:hover{
 .bg-7{
   width: 80vw;
   height: 94.3vh;
+  z-index: 0;
 }
 
 .bg-8{
@@ -442,6 +483,7 @@ a:hover{
   left: 26vw;
   width: 41.6vw;
   height: 103.6vh;
+  z-index: 5;
 }
 
 .slider-div-3{
@@ -450,12 +492,14 @@ a:hover{
   left: 0vw;
   width: 80vw;
   height: 94.3vh;
+  z-index: 10;
 }
 
 .r-2{
   position: relative;
   width: 80vw;
   height: 94.3vh;
+  z-index: 15;
 }
 
 .bg-9-img img{
@@ -464,6 +508,7 @@ a:hover{
   left: 35.3vw;
   width: 31.2vw;
   height: 41.6vh;
+  z-index: 30;
 }
 
 .bg-24-img img{
@@ -472,6 +517,7 @@ a:hover{
   left: 37.5vw;
   width: 31.2vw;
   height: 37vh;
+  z-index: 25;
 }
 
 .bg-25-img img{
@@ -480,6 +526,7 @@ a:hover{
   left: 3.9vw;
   width: 26vw;
   height: 30.8vh;
+  z-index: 30;
 }
 
 .bg-26-img img{
@@ -488,6 +535,16 @@ a:hover{
   left: 18.3vw;
   width: 28.6vw;
   height: 33.9vh;
+  z-index: 35;
+}
+
+.bg-26 img{
+  position: absolute;
+  top: 51.3vh;
+  left: 23.4vw;
+  width: 13vw;
+  height: 42vh;
+  z-index: 40;
 }
 
 .bg-10{
@@ -496,6 +553,7 @@ a:hover{
   left: 65vw;
   width: 1.5vw;
   height: 32.4vh;
+  z-index: 35;
 }
 
 .left-bottom img{
@@ -504,6 +562,7 @@ a:hover{
   left: 6.2vw;
   width: 10.4vw;
   height: 18.5vh;
+  z-index: 20;
 }
 
 .text-3{
@@ -512,6 +571,7 @@ a:hover{
   left: 8.6vw;
   width: 31.2vw;
   height: 55.5vh;
+  z-index: 25;
 }
 
 .text-3-1{
@@ -520,6 +580,7 @@ a:hover{
   left: 8.1vw;
   width: 31.2vw;
   height: 55.5vh;
+  z-index: 20;
 }
 
 .text-3-2{
@@ -529,6 +590,7 @@ a:hover{
   width: 31.2vw;
   height: 55.5vh;
   border: 1px solid #000000;
+  z-index: 20;
 }
 
 .text-3-3{
@@ -538,6 +600,7 @@ a:hover{
   width: 31.2vw;
   height: 55.5vh;
   border: 1px solid #000000;
+  z-index: 25;
 }
 
 .line-2-2 img{
@@ -546,6 +609,7 @@ a:hover{
   left: 40.1vw;
   width: 31.2vw;
   height: 37vh;
+  z-index: 20;
 }
 
 .slider-nav{
@@ -704,12 +768,14 @@ a:hover{
 .bg-27{
   width: 80vw;
   height: 83.3vh;
+  z-index: 0;
 }
 
 .bg-27-2{
   position: relative;
   width: 80vw;
   height: 83.3vh;
+  z-index: 5;
 }
 
 .bg-28{
@@ -718,6 +784,7 @@ a:hover{
   left: 26vw;
   width: 41.6vw;
   height: 83.3vh;
+  z-index: 5;
 }
 
 .slider-div-4{
@@ -726,6 +793,7 @@ a:hover{
   left: 0vw;
   width: 80vw;
   height: 83.3vh;
+  z-index: 10;
 }
 
 .s{
@@ -743,7 +811,8 @@ a:hover{
 /*-----活動心得-----*/
 .bg-11{
   width: 80vw;
-  height: 83.3vh;
+  height: 83.33333vh;
+  z-index: 0;
 }
 
 .bg-12{
@@ -752,6 +821,7 @@ a:hover{
   left: 26vw;
   width: 41.6vw;
   height: 84.6vh;
+  z-index: 5;
 }
 
 .slider-div-2{
@@ -759,13 +829,15 @@ a:hover{
   top: 527.5vh;
   left: 0vw;
   width: 80vw;
-  height: 83.3vh;
+  height: 83.33333vh;
+  z-index: 10;
 }
 
 .r{
   position: relative;
   width: 80vw;
-  height: 83.3vh;
+  height: 83.33333vh;
+  z-index: 15;
 }
 
 .pic-title{
@@ -787,6 +859,7 @@ a:hover{
   left: 4.4vw;
   width: 5.2vw;
   height: 55.5vh;
+  z-index: 20;
 }
 
 .pic1-2{
@@ -795,6 +868,7 @@ a:hover{
   left: 16.6vw;
   width: 26vw;
   height: 30.8vh;
+  z-index: 20;
 }
 
 .pic1-2-t{
@@ -816,6 +890,7 @@ a:hover{
   left: 51.3vw;
   width: 20.8vw;
   height: 24.6vh;
+  z-index: 20;
 }
 
 .pic1-3-t{
@@ -838,6 +913,7 @@ a:hover{
   left: 2.8vw;
   width: 5.2vw;
   height: 74vh;
+  z-index: 20;
 }
 
 .pic2-2{
@@ -846,6 +922,7 @@ a:hover{
   left: 37.5vw;
   width: 15.6vw;
   height: 37vh;
+  z-index: 20;
 }
 
 .pic2-3{
@@ -854,6 +931,7 @@ a:hover{
   left: 55.3vw;
   width: 17.5vw;
   height: 46.2vh;
+  z-index: 20;
 }
 
 .pic2-1-t{
@@ -876,6 +954,7 @@ a:hover{
   left: 14vw;
   width: 20.8vw;
   height: 24.6vh;
+  z-index: 20;
 }
 
 .pic2-4{
@@ -884,6 +963,7 @@ a:hover{
   left: 15.6vw;
   width: 20.8vw;
   height: 24.6vh;
+  z-index: 25;
 }
 
 .pic2-4-t{
@@ -905,6 +985,7 @@ a:hover{
   left: 0;
   width: 33.8vw;
   height: 9.2vh;
+  z-index: 20;
 }
 
 .pic3-2{
@@ -913,6 +994,7 @@ a:hover{
   left: 2.6vw;
   width: 26vw;
   height: 30.8vh;
+  z-index: 20;
 }
 
 .pic3-2-t{
@@ -934,6 +1016,7 @@ a:hover{
   left: 56.8vw;
   width: 15.6vw;
   height: 40.1vh;
+  z-index: 20;
 }
 
 .pic3-3-t{
@@ -952,40 +1035,56 @@ a:hover{
 
 .pic4-1{
   position: absolute;
-  top: 16.3vh;
-  left: 5.4vw;
-  width: 5.2vw;
-  height: 46.2vh;
+  top: 71.57407407407408vh;
+  left: 39.3vw;
+  width: 26vw;
+  height: 9.2vh;
+  z-index: 20;
 }
 
 .pic4-2{
   position: absolute;
-  top: 14.1vh;
-  left: 17.9vw;
-  width: 31.2vw;
-  height: 37vh;
+  top: 32.6vh;
+  left: 2.4vw;
+  width: 28.1vw;
+  height: 33.4vh;
+  z-index: 20;
 }
 
 .pic4-3{
   position: absolute;
-  top: 5.4vh;
-  left: 51.6vw;
-  width: 20.8vw;
-  height: 54.4vh;
+  top: 4.7vh;
+  left: 47.5vw;
+  width: 17.5vw;
+  height: 45.9vh;
+  z-index: 20;
 }
 
 .pic4-3-t{
-  top: 58vh;
-  left: 36.1vw;
+  top: 11.2vh;
+  left: 26.3vw;
   width: 13vw;
   text-align: right;
 }
 
 .pic4-3-p{
-  top: 64.1vh;
-  left: 20.5vw;
+  top: 17.3vh;
+  left: 10.6vw;
   width: 28.6vw;
-  height: 11.1;
+  height: 11.1vh;
+}
+
+.pic4-3-t-2{
+  top: 50.6vh;
+  left: 35.4vw;
+  width: 13vw;
+}
+
+.pic4-3-p-2{
+  top: 57.4vh;
+  left: 35.4vw;
+  width: 28.6vw;
+  height: 11.1vh;
 }
 
 .pic5-1{
@@ -994,6 +1093,7 @@ a:hover{
   left: 0;
   width: 20.8vw;
   height: 9.2vh;
+  z-index: 20;
 }
 
 .pic5-2{
@@ -1002,6 +1102,7 @@ a:hover{
   left: 3.3vw;
   width: 15.6vw;
   height: 37vh;
+  z-index: 20;
 }
 
 .pic5-3{
@@ -1010,6 +1111,7 @@ a:hover{
   left: 21.7vw;
   width: 20.8vw;
   height: 27.7vh;
+  z-index: 20;
 }
 
 .pic5-4{
@@ -1018,6 +1120,7 @@ a:hover{
   left: 46.1vw;
   width: 20.8vw;
   height: 27.7vh;
+  z-index: 20;
 }
 
 .pic5-4-t{
@@ -1039,6 +1142,7 @@ a:hover{
   left: 38.7vw;
   width: 22.6vw;
   height: 23.2vh;
+  z-index: 20;
 }
 
 .pic5-5-t{
@@ -1059,12 +1163,14 @@ a:hover{
 .bg-29{
   width: 80vw;
   height: 68.5vh;
+  z-index: 0;
 }
 
 .r-3{
   position: relative;
   width: 80vw;
   height: 68.5vh;
+  z-index: 5;
 }
 
 .club-title{
@@ -1074,6 +1180,7 @@ a:hover{
   font-size: 4rem;
   font-weight: 900;
   text-align: center;
+  z-index: 10;
 }
 
 .c-t-3{
@@ -1109,6 +1216,7 @@ a:hover{
   top: 13.7vh;
   width: 23.4vw;
   height: 27.7vh;
+  z-index: 10;
 }
 
 #g1{
@@ -1131,6 +1239,7 @@ a:hover{
   padding-top: 3px;
   text-align: center;
   font-size: 1.875rem;
+  z-index: 10;
 }
 
 #link-1{
@@ -1151,24 +1260,142 @@ a:hover{
   width: 5.0140625vw;
   height: 4.861111111111111vh;
   cursor: pointer;
+  z-index: 50;
 }
 
 #arrow-1{
   left: 9.947916666666666vw;
+  transition: all 0.5s ease-in-out;
+  z-index: 50;
 }
 
 #arrow-2{
   left: 35vw;
+  transition: all 0.5s ease-in-out;
+  z-index: 50;
 }
 
 #arrow-3{
   left: 60.05208333333333vw;
+  transition: all 0.5s ease-in-out;
+  z-index: 50;
 }
 
-.club-1{
+#club-1{
   width: 80vw;
   height: 171.2962962962963vh;
   display: none;
+}
+
+.c-r-1{
+  width: 80vw;
+  height: 166vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  column-gap: 4.635416666666667vw;
+  row-gap: 4.259259259259259vh;
+}
+
+.club img{
+  width: 15.625vw;
+  height: 31vh;
+}
+
+.name{
+  width: 15.625vw;
+  height: 4.6296296296296294vh;
+  padding: 50px 0px;
+  color: #B4AA7C;
+  font-size: 3.25rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.work{
+  width: 15.625vw;
+  height: 4.6296296296296294vh;
+  color: #FDFDFD;
+  text-align: center;
+}
+
+#club-2{
+  width: 80vw;
+  height: 120.37037037037037vh;
+  display: none;
+}
+
+.c-r-2{
+  width: 80vw;
+  height: 56vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  column-gap: 4.635416666666667vw;
+  row-gap: 4.259259259259259vh;
+}
+
+.c-r-3{
+  width: 80vw;
+  height: 60.18518518518518vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  column-gap: 4.635416666666667vw;
+  row-gap: 4.259259259259259vh;
+}
+
+#club-3{
+  width: 80vw;
+  height: 120.37037037037037vh;
+  display: none;
+}
+
+.c-r-4{
+  position:relative;
+  width: 80vw;
+  height: 120.37037037037037vh;
+}
+
+.line-5{
+  position: absolute;
+  top: 73.6vh;
+  left: 5.36vw;
+  width: 36.45vw;
+  height: 36.45vh;
+}
+
+.hu2{
+  position: absolute;
+  top: 69.35vh;
+  left: 8.17vw;
+  width: 36.45vw;
+  height: 36.45vh;
+}
+
+.hu1{
+  position: absolute;
+  top: 4.62vh;
+  left: 14.06vw;
+  width: 46.875vw;
+  height: 55.55vh;
+}
+
+.bg-30{
+  position: absolute;
+  bottom: 0;
+  left: 58.17vw;
+  width: 13vw;
+  height: 55.55vh;
+}
+
+.text-10{
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 30px 50px;
 }
 
 /*-----頁尾-----*/
@@ -1303,7 +1530,7 @@ a:hover{
 .text-9-p{
   position: absolute;
   top: 36vh;
-  left: 32.9vw;
+  left: 36vw;
   width: 23.4vw;
   height: 4.6vh;
   font-size: 2.625rem;
