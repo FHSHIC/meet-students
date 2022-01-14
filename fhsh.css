@@ -58,9 +58,13 @@ p{
   font-size: 1.875rem;
   text-align: left;
   z-index: 90;
+  text-overflow: ellipsis;
+  display: -webkit-box;
 }
 
 /*-----選單-----*/
+
+
 nav{
   position: absolute;
   top: 1.5vh;
@@ -1535,4 +1539,61 @@ a:hover{
   height: 4.6vh;
   font-size: 2.625rem;
   font-family: DFKai-sb;
+}
+
+@media screen and (max-width: 800px){
+  .main-1{
+   left: 0vw;
+ }
+
+  p,
+  .nav,
+  .text-1-2,
+  .text-1-title,
+  .text-4-title,
+  .text-4-p,
+  .text-4-p-2,
+  .little-div,
+  .little-div:hover,
+  .text-5-title,
+  .text-5-p,
+  .text-2-more,
+  .text-2-mi,
+  .text-3-title,
+  .text-3-title-2,
+  .text-3-title-3,
+  .ourland,
+  .liu-talk,
+  .talk,
+  .pic-title,
+  .pic-p,
+  .club-title,
+  .link,
+  .name,
+  .text-10,
+  .text-7-title,
+  #t3,
+  .text-8-title,
+  .text-8-p,
+  .text-9-p
+  {
+    font-size: 0.8rem;
+  }
+ 
+  body,.main-1,nav,.bg-1,#a2,#a3,.bg-2,.bg-7,.slider-div-3,.r-2,.slider-nav,.bg-27,.bg-27-2,.slider-div-4,.bg-11,.slider-div-2,.r,.bg-29,.r-3,#club-1,.c-r-1,#club-2,.c-r-2,.c-r-3,#club-3,.c-r-4,.bg-18
+  {
+    width: 100vw;
+  }
+
+  .bg-1,
+  #a2,
+  #a3,
+  #a5,
+  .bg-11,
+  .bg-18
+  {
+    left: 50vw;
+  }
+
+
 }
