@@ -1546,8 +1546,8 @@ a:hover{
    left: 0vw;
  }
 
-  p,
-  .nav,
+ p,
+ .nav,
   .text-1-2,
   .text-1-title,
   .text-4-title,
@@ -1585,15 +1585,7 @@ a:hover{
     width: 100vw;
   }
 
-  .bg-1,
-  #a2,
-  #a3,
-  #a5,
-  .bg-11,
-  .bg-18
-  {
-    left: 50vw;
-  }
+
 
 
 }
